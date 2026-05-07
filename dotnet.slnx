@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Caching/Caching.csproj" Id="cb54fc24-9575-4bb9-8184-15f4791778dd" />
+  <Project Path="Collections/Collections.csproj" Id="e634b2f9-a7c6-4842-b06d-1187ae218cf3" />
+  <Project Path="Extensions/Extensions.csproj" Id="4633e333-63bc-482d-9259-e3bdfb0fa988" />
+  <Project Path="Threading/Threading.csproj" Id="4e022492-d0cb-4388-91cf-2e4d6d68813a" />
+</Solution>

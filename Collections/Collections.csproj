@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup>
+      <TargetFramework>net8.0</TargetFramework>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+      <RootNamespace>Allmhuran.Collections</RootNamespace>
+      <SignAssembly>True</SignAssembly>
+      <AssemblyName>Allmhuran.Collections</AssemblyName>
+      <Authors>Donald Halloran</Authors>
+      <Version>1.0.0+$([System.DateTime]::UtcNow.ToString(`yyyyMMddHHmm`))</Version>
+   </PropertyGroup>
+
+</Project>
