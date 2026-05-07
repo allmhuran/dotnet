@@ -2,13 +2,12 @@
 {
    /// <summary>
    /// Thread safe cache implementing a least-recently-used eviction policy.<br/>
-   /// Thread safety is provided by global synchronization locks around shared data.<br/>
-   /// This is obviously not ideally performant, but it is easy and safe, and probably fast enough for most use cases!
    /// </summary>
    /// <typeparam name="TKey"></typeparam>
    /// <typeparam name="TValue"></typeparam>   
    /// <remarks>
-   /// Thread Safety: This cache is thread-safe. All public methods use internal locking.<br/>
+   /// Thread safety is provided by global synchronization locks around shared data.<br/>
+   /// This is obviously not ideally performant, but it is easy and safe, and probably fast enough for most use cases!   
    /// The onEvicted callback is invoked outside the lock, so long-running callbacks won't block cache operations.<br/>
    /// </remarks>
    public sealed class LruCache<TKey, TValue> where TKey: notnull
