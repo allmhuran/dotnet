@@ -1,2 +1,2 @@
 # dotnet
-Domain-agnostic dot net projects like extensions, custom collections, etc
+Domain-agnostic dot net shared library projects like extensions, custom collections, etc
